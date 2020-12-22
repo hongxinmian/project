@@ -1,0 +1,545 @@
+.daohang{
+    height: 32px;background-color: #333;
+ }
+ .bar-left{
+     width: 300px;height: 32px;float: left;
+ }
+ .bar-left ul{
+     list-style: none;line-height: 32px;margin-left: 40px;
+ }
+ .bar-left ul li{
+     float: left;font-size: 12px;
+ }
+ .bar-left ul a{
+     color: white;
+ }
+ .bar-left ul li a:hover{
+     text-decoration: none;color: #1c76bc;
+ }
+ .bar-left ul .topbar-logout{
+     margin-left: 17px;
+ }
+ .bar-right{
+     float: right;margin-right: 130px;text-align: center;
+ }
+ .bar-right ul{
+     list-style: none;line-height: 32px;
+ }
+ .bar-right ul li{
+     float: left;font-size: 12px;padding: 0px 10px;
+ }
+ .bar-right ul a{
+    color: white;
+}
+.bar-right ul li a:hover{
+    text-decoration: none;color: #1c76bc;
+}
+.drop-menu{
+    background:bisque;position: absolute;width: 70px;
+    text-align: center;left: 1052px;display: none;
+}
+.menu-label a{
+    display: inline-block;width: 68px;height: 32px;
+}
+.menu-label:hover a{
+    background-color: white;color: black;
+}
+.menu-label:hover .drop-menu{
+    display: block;color: black;background-color: white;
+    border: 1px solid #ccc;border-top: none;z-index: 99;
+}
+.menu-label:hover .drop-menu a{
+    color: black;
+}
+.menu-label:hover .drop-menu a:hover{
+    color: #1c76bc;
+}
+.qrcode-wrap{
+    width: 300px;position: absolute;left: 910px !important;
+}
+.qrcode-wrap img{
+    width: 111px ;height: 111px;margin-top: 20px;margin-bottom: 20px;
+}
+.container{
+    width: 1190px !important
+}
+.nav1{
+    height: 160px;
+}
+.logo1{
+    width: 157px;height: 58px;
+}
+.nav1 .logo1 img{
+    float: left;margin-top: 33px;margin-left: 15px;
+}
+.clearfix{
+    margin-bottom: 0px;
+}
+.nav1 .col-lg-6{
+    margin-left: 120px;margin-top: -30px;
+}
+.nav1.input-group{
+    width: 590px;
+}
+.nav1 .col-lg-6 .form-control{
+    width: 460px;height: 40px ;outline: none;
+    border: 2px solid #2884c7;
+}
+.nav1 .col-lg-6 .btn{
+    width: 130px;height: 40px;background-color: #2884c7;
+    border: 2px solid #2884c7;color: white;font-size: 18px;
+    outline: none;
+}
+.nav1 .glyphicon-shopping-cart{
+    width: 120px;height: 38px;font-size: 18px;color: #2884c7;
+    background-color: white;border: 1px solid #ddd;
+    outline: none;
+}
+.glyphicon-shopping-cart{
+    top: 62px;left: 1020px;position: absolute;
+}
+.nav1 .glyphicon-shopping-cart:hover{
+    background-color: #2884c7;color: white;
+}
+.nav2{
+    margin-top: -40px;height: 43px;
+}
+.nav2 .dropdown-menu li .er-menu{
+    width: 1000px;height: 420px;box-sizing: border-box;background: white;
+    padding-right: 100px;box-shadow: 2px 2px 10px 2px gray;
+    z-index: 100;position: absolute;left: 196px;top: 0;display: none;
+}
+.nav2 .dropdown-menu li .er-menu ul li{
+    float: left;margin-top: 30px;margin-right: 100px;
+}
+.nav2 .dropdown-menu li .er-menu ul li img{
+    width: 60px;height: 60px;float: left;margin-right: 15px;
+}
+.nav2 .dropdown-menu li .er-menu ul li p{
+    float: left;font-size: 14px;font-weight: bold;color: black;
+}
+.nav2 .dropdown-menu li:hover .er-menu{
+    display: block;
+}
+.nav2 .dropdown-menu li .er-menu ul li:hover{
+    background: none;
+}
+.nav2 .nav-tabs{
+    text-align: center;font-size: 14px;
+}
+.nav2 .nav-tabs li:nth-of-type(2) a,.nav2 .nav-tabs li:nth-of-type(3) a{
+    color: black !important
+}
+.nav2 .nav-tabs .dropdown .glyphicon-align-justify{
+    background-color: #011912;color: white;
+}
+.nav2 .nav-tabs .dropdown{
+    width:196px;
+}
+.nav2 .nav-tabs .dropdown .dropdown-menu{
+    width: 194px;color: white;font-size:14px;line-height:55px ;
+    text-align: center;height: 420px;padding-top: 15px;
+    background:  #000c !important;
+}
+.nav-tabs > li > a:hover {
+    border: solid 1px white;border-bottom: #011912 0.5px solid;
+}
+.nav2 .nav-tabs li a:focus{
+    background:none
+}
+.nav li a:hover{
+    background: none;
+}
+.nav2 .dropdown-menu span{
+    margin-left: 50px;
+}
+.nav2 .dropdown-menu li:hover{
+    background-color: #1c76bc;cursor: pointer;
+}
+.nav-tabs{
+    border-bottom: 2px solid #011912;
+}
+.nav2 .kefu{
+    position: relative;top:-30px;left: 1015px;
+    font-size: 16px;width: 80px;
+}
+.content .content_nav{
+    height: 44px;
+    line-height: 44px;font-size: 12px;
+    padding: 0 5px;
+    margin: 0 auto;
+    clear: both;
+}
+.content .content_nav a{
+    color: #333;font-size: 12px;
+    text-decoration: none;
+}
+.content .content_nav span{
+    color: #ccc;padding: 0 10px;
+}
+.content .product_info{
+    min-height: 568px;
+}
+.product_info .img_info{
+    width: 450px;height: 568px;float: left;
+}
+.product_info .img_info .bigbox{
+    width: 450px;height: 450px;text-align: center;
+    border: 1px solid #f0f0f0;position: relative;
+}
+.product_info .img_info .bigbox .mark{
+    width: 224px;height: 224px;background: rgba(0,0,0,0.4);
+    position: absolute;left: 0px;top:0px;display: none;
+}
+.product_info .img_info .rightBox{
+    width: 400px;height: 400px;position: absolute;left:550px;
+    top:240px;overflow: hidden;display: none;
+}
+.product_info .img_info .rightBox img{
+    position: absolute;
+    width: 800px;height: 800px;
+}
+.product_info .img_info .bigbox img{
+    width: 448px;height: 448px;
+}
+.product_info .img_info .smallbox{
+    width:450px;height: 90px;margin-top: 23px;
+    margin-bottom: 5px;
+}
+.smallbox span{
+    width: 35px;height: 80px;cursor: pointer;
+    display: inline-block;line-height:80px ;font-size: 20px;
+    font-weight: bold;text-align: center;color:#999;float: left;
+}
+.smallbox .s_box{
+    width:380px;float:left;overflow:hidden;
+    height: 72px;
+}
+.s_box ul{
+    margin: 0;min-width: 580px;height: 72px;
+    float: left;padding: 0;list-style: none;
+}
+.smallbox .s_box  ul li{
+    float: left;height: 72px;width: 72px;border: #ccc 1px solid;
+    margin-right: 5px;cursor: pointer;
+}
+.border1{
+    border: 1px solid rgb(200, 0, 0);
+}
+.smallbox .s_box  ul li img{
+    width: 70px;height: 70px;
+}
+.product_info .pro_info{
+    width: 700px;height: 337px;
+    float: right;
+}
+.pro_info .base_info .title{
+    width: 700px;height: 26px;text-indent: 12px; 
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    font-size:20px ;margin-bottom: 10px;
+}
+.pro_info .base_info .slogan{
+    width: 700px;height: 14px;margin-bottom: 10px;
+    font-size: 14px;line-height: 14px;text-indent: 12px; word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price_info{
+    width: 700px;background-color: #f9f9f9;height: 61px;padding: 10px 0;
+}
+.price_info dl{
+    height: 41px;padding: 10px 0;
+}
+.price_info dl dt{
+    font-weight: normal;float: left;font-size:12px ;color: #888;
+    margin-left: 12px;margin-right: 12px;line-height: 20px;
+}
+.price_info dl dd{
+    float: left;
+}
+.price_info dl dd .price_num{
+    float: left;line-height: 20px;color: #C80000;font-size:16px ;
+}
+.price_info dl dd .price_num span{
+    font-size: 18px;
+}
+.price_info dl dd .pingjia{
+    height: 20px;width: 170px;line-height: 20px;
+    float: right;margin-left: 340px;
+}
+.price_info dl dd .pingjia .star{
+    width: 80px;height: 20px;line-height: 20px;float: left;
+}
+.price_info dl dd .pingjia .star .glyphicon-star{
+    font-size: 12px;color: rgb(255, 212, 71);
+}
+.price_info dl dd .pingjia span{
+    font-size: 12px;height: 20px;display:block;
+    float: left;
+}
+.price_info dl dd .pingjia span a{
+    color: #333;text-decoration: none
+}
+.distribution_info{
+    width: 100%;height: 48px;margin-top: 5px;
+}
+.distribution_info .region{
+    height: 34px;margin-bottom: 0;
+}
+.distribution_info .region dt{
+    width: 72px;height: 34px;margin-right: 15px;
+    float: left;text-indent: 12px;
+    line-height: 34px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #888888;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.distribution_info .region dd{
+    height: 34px;float: left;
+    width: 613px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0;
+}
+.distribution_info .region .express_title{
+    width: 174px;height: 34px;
+}
+.distribution_info .region .express_title div{
+    float: left;
+    height: 32px;
+    line-height: 34px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 6px;
+}
+.distribution_info .region .express_detail{
+    position: absolute;padding: 15px 20px;display: none;
+    width: 475px;
+    min-height: 225px;
+    top: 436px;
+    left: 642px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    z-index: 9;
+    font-size: 12px;
+}
+.distribution_info .region .express_info .add_title{
+    width: 435px;height: 30px;border-bottom: 1px solid #c80000;
+}
+.distribution_info .region .express_info .add_title a{
+    float: left;text-decoration: none;color: #333;
+    height: 29px;border: 1px solid #dbdbdb;margin-right: 6px;
+    max-width: 150px;border-bottom: none;
+    line-height: 28px;
+    padding: 0 15px;
+}
+.distribution_info .region .express_info .add_title span{
+    display: inline-block;color: #C80000;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    width: 10px;
+    float: right;font-size: 22px;
+}
+.distribution_info .text{
+    width: 100%;height: 14px;font-size: 12px;line-height: 14px;
+    margin-bottom:0;padding-left: 88px;
+}
+.distribution_info .text span{
+    color: #ff8c00;
+    padding-right: 10px;
+}
+.distribution_info .text a{
+    text-decoration: none;color: #f01e00;;
+}
+.info_choose{
+    width: 100%;height: 56px;padding-top: 10px;
+}
+.info_choose dl dt{
+    float: left;width: 72px;height: 34px;margin-right: 15px;line-height: 34px;text-indent: 12px;
+    font-size: 12px;vertical-align: top;font-weight: normal;
+    color: #888888;
+}
+.info_choose dl dd{
+    float: left;width: 601px;height: 34px;
+}
+.info_choose dl dd ul{
+    height: 34px;padding: 0;
+}
+.info_choose dl dd ul li{
+    float: left;font-size: 12px;border: 1px solid #EBEAEA;border-radius: 4px;
+    list-style: none;margin-right:15px;background: white;
+}
+.info_choose ul a{
+    display: inline-block;padding:0 15px;height: 30px;line-height: 30px;
+    color: #333;text-decoration: none;
+}
+.info_choose dl dd ul .on{
+    border: 1px solid #d70000;
+}
+.info_choose dl dd ul .on a{
+    color: #f01e00;
+}
+.info_choose dl dd ul li:hover{
+    border: 1px solid #d70000;
+}
+.info_choose dl dd ul li:hover a{
+    color: #f01e00;
+}
+.count_num{
+    width: 700px;height: 42px;margin-bottom: 5px;
+}
+.count_num dt{
+    float: left;width: 72px;height: 34px;margin-right: 15px;line-height: 34px;text-indent: 12px;
+    font-size: 12px;vertical-align: top;font-weight: normal;
+    color: #888888;margin-top: 5px;
+} 
+.count_num dd{
+    float: left;width: 500px;height: 42px;
+}
+.count_num dd div{
+    width: 107px;height: 40px;line-height: 40px;
+    border: 1px solid #ececec;float: left;
+}
+.count_num dd div button{
+    width: 40px;height: 38px;border: none;outline: none;font-weight: bold;
+    float: left;text-align: center;background: white;color: #888;
+}
+.count_num dd div input{
+    float: left;width: 25px;height: 38px;outline: none;border: none;text-align: center;
+}
+.count_num dd span{
+    float: left;line-height: 40px;color: #ff7800;margin-left: 15px;
+}
+.pay_info{
+    background: #f9f9f9;height: 50px;
+    line-height: 50px;margin-top: 15px;
+}
+.pay_info .all_price{
+    width: 168px;height: 50px;
+    float: left;margin-right: 382px;
+}
+.pay_info .all_price p{
+    float: left;width: 72px;height: 34px;margin-right: 15px;line-height: 34px;
+    font-size: 13px;vertical-align: top;font-weight: normal;text-indent: 12px;
+    color: #888888;margin-top: 10px;margin-bottom: 0;
+}
+.pay_info .all_price span{
+    color: #f01e00;font-size: 16px;width: 81px;display: inline-block;float: left;
+}
+.pay_info .all_price span i{
+    font-style: normal;font-size: 18px;line-height: 50px;
+}
+.pay_info .pay_button{
+    width: 150px;height: 50px;background-color: #f01e00;float: left;
+}
+.pay_info .pay_button a{
+    display: inline-block;color: #fff;width: 150px;height: 50px;
+    text-align: center;line-height: 50px;font-size: 18px;text-decoration: none;
+}
+.product_tabs{
+    margin-top: 20px;width: 100%;min-height:50px ;
+}
+.product_tabs .tabs{
+    list-style: none;height: 50px;margin: 0;
+    height: 52px;padding: 0 74.5px;background: white;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+}
+.product_tabs .tabs li{
+    float: left; width: 120px;height: 50px;font-size: 16px;color: #333;
+    text-align: center;line-height: 50px;cursor: pointer;
+}
+.product_tabs .tabs .cur span{
+    display: inline-block;
+    height: 52px;color: #d70000;
+    border-bottom: 3px solid #f01e00;
+}
+.product_tabs div{
+    margin-top: 25px;display: none;margin-left: 75px;
+}
+.product_tabs .p1{
+    display: block;margin-top:25px;margin-left: 75px;
+}
+.jgsm{
+    height: 81px;
+}
+.jgsm .container{
+    border: 1px solid #dfdfdf;height: 81px;color: #333;font-size: 12px;
+    padding: 10px 0 10px 30px;background:white;
+}
+.jgsm .container .title{
+    color: #d80c18;height: 19px;margin-bottom: 10px;font-size: 14px;
+}
+.jgsm .container p{
+    margin: 0;
+}
+.tubiao{
+    height: 79px;width: 100%;background-color: #f2f2f2;
+    display: flex;
+}
+.tubiao .tb1{
+    display: flex;align-self: center;margin-right: 180px;
+}
+.tubiao .tb1:nth-of-type(1){
+    margin-left: 136px;
+}
+.tubiao .tb1 img{
+    width: 38px;height: 38px;
+}
+.tubiao .tb1 p{
+    margin-top: 10px;margin-left: 15px;color: #666;font-size: 16px;
+}
+.footer{
+    height: 259px;background-color: #191919;
+    width: 100%;
+}
+.footer .ff{
+    background-color: #151515;float: left;
+    height: 259px;width: 1200px;margin-left: 75px;
+    display: flex;flex-wrap: wrap;
+}
+.ff .cols{
+    width: 200px ;height: 97px;
+    margin-top: 28px;
+}
+.cols:nth-of-type(1){
+    margin-left: 59px;
+}
+.ff .cols .title1{
+    color: #c4c2c2;font-size: 12px;
+}
+.ff .cols ul{
+    padding-left: 0px;
+}
+.ff .cols ul a{
+    color: #888;
+}
+.ff .cols ul li{
+    list-style: none;font-size: 12px;line-height: 22px;
+}
+.ff .cols ul a:hover{
+    text-decoration: none;color: #1c76bc;
+}
+.le_footer_cs{
+    margin-top: 28px;color: #f05353;
+}
+.le_footer_cs .line{
+    color: white;font-size: 12px;
+}
+.le_footer_down{
+    border-top: 1px solid #373737;width: 1200px;
+    color: #888;font-size: 12px;padding-top: 10px;
+    text-align: center;margin-top: 30px;
+}
+.le_footer_down a{
+   color: #888;text-decoration: none;
+}

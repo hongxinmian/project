@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/shouye.css">
+</head>
+<body>
+    <div class="daohang">
+        <div class="bar-left">
+            <ul class="clearfix">
+                <li><a href="#">商城首页</a></li>
+                <li class="topbar-logout">
+                    <a class="login" href="./login.html">登录</a>
+                    <a class="register" href="./zhuce.html">注册</a>
+                </li>
+            </ul>
+        </div>
+        <div class="bar-right">
+            <ul class="clearfix">
+                <li><a href="#">个人中心</a></li>
+                <li class="menu-label">
+                    <span>
+                        <a href="#">帮助中心</a>
+                    </span>
+                    <div class="drop-menu">
+                        <div class="drop-menu-link"><a href="#" target="_blank">配送安装</a></div>
+                        <div class="drop-menu-link"><a href="#" target="_blank">售后服务</a></div>
+                        <div class="drop-menu-link"><a href="#" target="_blank">运费标准</a></div>
+                        <div class="drop-menu-link"><a href="#" target="_blank">联系客服</a></div>
+                    </div>
+                </li>
+                <li class="menu-label"><span><a href="#">手机版</a></span>
+                    <div class="clearfix drop-menu qrcode-wrap">
+                        <div class="qrcode-pic">
+                            <img src="../images/erweima.jpg" />
+                            <span>扫码下载APP</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="nav1">
+        <div class="container">
+            <div class="logo1">
+                <a href="http://www.lemall.com/index.html"><img src="../images/logo.jpg" alt=""></a>
+            </div>
+            <div class="row ">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="搜索...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">搜&nbsp;&nbsp;索</button>
+                      </span>
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+                <button type="button" class="glyphicon glyphicon-shopping-cart"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav2"> 
+            <div class="lunbo" id="lunbo">
+                <div class="images" id="images" style="left:-1196px">
+                    <img src="../images/lunbo_bg2.jpg">
+                    <img src="../images/lunbo_bg1.jpg">
+                    <img src="../images/lunbo_bg2.jpg">
+                    <img src="../images/lunbo_bg1.jpg">
+                </div>
+                <div id="btn">
+                    <span index="1" class="first"></span>
+                    <span index="2"></span>
+                </div>
+                <a href="#" class="direction" id="prev">&lt;</a>
+                <a href="#" class="direction" id="next">&gt;</a>
+            </div>
+            <div class="caidan">
+                <!-- <ul class="menu">
+                    <li>
+                      数码家电<span>></span>
+                      <div class="er-menu">
+                        <ul>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>酒水饮料<span>></span>
+                      <div class="er-menu">
+                        <ul>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>食品生鲜<span>></span>
+                      <div class="er-menu">
+                        <ul>
+                          <li>
+                            <img src="../images/drink.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>美妆个护<span>></span>
+                      <div class="er-menu">
+                        <ul>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>服饰箱包<span>></span>
+                      <div class="er-menu">
+                        <ul>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>母婴玩具<span>></span>
+                      <div class="er-menu">
+                        <ul>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>家居生活<span>></span>
+                      <div class="er-menu">
+                        <ul>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                          <li>
+                            <img src="../images/shenghuo.jpg" alt="">
+                            <p>生活电器</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                </ul> -->
+            </div>
+            <div class="user">
+                <div class="user_box">
+                    <div class="user_pic"><img src="../images/default.jpg" alt=""></div>
+                    <div class="user_title">Hi, 您好</div>
+                    <div class="user_desc">欢迎来到乐视商城</div>
+                    <div class="user_btn">
+                        <p>
+                            <a href="../html/login.html" class="btn btn-primary" role="button">登录</a>
+                            <a href="../html/zhuce.html" class="btn btn-default" role="button">注册</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="new_box">
+                    <div class="txt">
+                        <b>商城资讯</b>
+                        <span><a href="#">更多></a></span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="nav3">
+        <a href="#"><img src="../images/nav3_1.jpg" class="first"></a>
+        <a href="#"><img src="../images/nav3_2.jpg" alt=""></a>
+        <a href="#"><img src="../images/nav3_3.jpg" alt=""></a>
+        <a href="#"><img src="../images/nav3_4.jpg" alt=""></a>
+        <a href="#"><img src="../images/nav3_5.jpg" alt=""></a>
+    </div>
+    <div class="nav4">
+        <div class="nav4_top">
+            <h3>919乐迷专区<p>丨</p></h3>
+            <span>低至五折</span>
+        </div>
+        <div class="nav4_content">
+            <div class="banner-l">
+                <a href="#"><img src="../images/banner-l.jpg" alt=""></a>
+            </div>
+            <div class="ad-box">
+            <ul>
+                  <!-- <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li> -->
+              </ul>
+            </div>
+
+          </div>
+          <div class="Pagination"></div>
+      </div>
+      <div class="nav4">
+        <div class="nav4_top">
+            <h3>919乐迷专区<p>丨</p></h3>
+            <span>低至五折</span>
+        </div>
+        <div class="nav4_content">
+            <div class="banner-l">
+                <a href="#"><img src="../images/banner-l.jpg" alt=""></a>
+            </div>
+            <div class="ad-box">
+            <ul>
+                  <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="Pagination"></div>
+      </div>
+      <div class="nav4">
+        <div class="nav4_top">
+            <h3>919乐迷专区<p>丨</p></h3>
+            <span>低至五折</span>
+        </div>
+        <div class="nav4_content">
+            <div class="banner-l">
+                <a href="#"><img src="../images/banner-l.jpg" alt=""></a>
+            </div>
+            <div class="ad-box">
+            <ul>
+                  <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                          <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                  <div class="imgbox"><img src="../../day23/img/7.jpg" alt="..."></div>
+                                  <div class="caption">
+                                      <h3>浦斯菲 贝壳加湿器S1</h3>
+                                      <p>静音细腻 大容量</p>
+                                      <p class="price">￥<span>43.70</span></p>
+                                      <p><a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="Pagination"></div>
+      </div>
+      <div class="tubiao">
+        <div class="tb1">
+            <img src="../images/logo_zheng.jpg" alt="">
+            <p>正品保障</p>
+        </div>
+        <div class="tb1">
+            <img src="../images/logo_seven.jpg" alt="">
+            <p>7天无理由退货</p>
+        </div>
+        <div class="tb1">
+            <img src="../images/logo_wu.jpg" alt="">
+            <p>物流服务</p>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="ff">
+            <div class="cols">
+                <h4 class="title1">选购及了解</h4>
+                <ul>
+                    <li><a href="#" target="_blank">超级电视</a></li>
+                    <li><a href="#" target="_blank">屏霸</a></li>
+                    <li><a href="#" target="_blank">生活家</a></li>
+                </ul>
+            </div>
+
+            <div class="cols">
+                <h4 class="title1">帮助中心</h4>
+                <ul>
+                    <li><a href="#" target="_blank">新手入门</a></li>
+                    <li><a href="#" target="_blank">物流服务</a></li>
+                    <li><a href="#" target="_blank">售后政策</a></li>
+                    <li><a href="#" target="_blank">安装报修</a></li>
+                </ul>
+            </div>
+
+            <div class="cols">
+                <h4 class="title1">服务支持</h4>
+                <ul>
+                    <li><a href="#" target="_blank">自助服务</a></li>
+                    <li><a href="#" target="_blank">乐码通道</a></li>
+                </ul>
+            </div>
+
+            <div class="cols">
+                <h4 class="title1">关于乐融商城</h4>
+                <ul>
+                    <li><a href="#" target="_blank">公司介绍</a></li>
+                    <li><a href="#" target="_blank">联系我们</a></li>
+                    <li><a href="#" target="_blank">加入我们</a></li>
+                    <li><a href="#" target="_blank">关注我们</a></li>
+                </ul>
+            </div>
+            <div class="le_footer_cs" style="text-align:left; width:240px;">
+                <div style="font-size:13px; padding-bottom:5px;" class="telphone">电视售前客服电话：0371-65820022</div>
+                <div style="font-size:13px; padding-bottom:5px;" class="telphone">其他商品客服电话：0755-88392947</div>
+                <div style="font-size:13px;" class="telphone">乐视电视售后电话：10109000</div>
+                <div style="padding-top:10px;" class="line">服务时间：工作日(9:00-17:30)</div>
+            </div>
+
+            <div class="area-center le_footer_down">
+                <div class="le_footer2_copyright">Copyright © 2004-2019 乐视商城 All rights reserved<span> | </span>京ICP备19019019号-1<span>|</span>京公网安备：11000002000099号<span> | </span><a class="license" target="_blank" href="//img0-lemall.letvimg.com/le-cloud/resource/images/www/201910251813.png">营业执照信息</a></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="../bootstrap/js/jquery-1.11.0.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../js/fenyeqi.js"></script>
+    <script src="../js/ajax1.js"></script>
+    
+    <script src="../js/shouye.js"></script>
+</body>
+</html>

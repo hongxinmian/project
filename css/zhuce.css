@@ -1,0 +1,169 @@
+.leader{
+    height: 90px;width: 100%;
+}
+.container{
+    display: flex;
+}
+.container>a img{
+    width: 150px;
+}
+.leader .container>a img{
+    margin-top: 30px;position: absolute;left: 40px;
+}
+.container .txt{
+    margin-top: 60px;margin-left: 600px;color: #a4a4a4;
+    position: absolute;right: 40px;
+}
+.container .txt>ul{
+    display: flex;list-style: none;
+}
+.container .txt ul>li{
+    padding: 0 5px;
+}
+.container .txt>ul a{
+    text-decoration: underline;color: #a4a4a4;
+}
+.container .txt ul a:hover{
+    color: #4193D7;
+}
+.txt .language1{
+    position: absolute;top: 30px;width: 122px;height: 135px;
+    background-color: white;text-align: center;
+    border: 1px solid #a4a4a4;left: 60px;
+    display: none;z-index: 99;
+}
+.txt .language1 .lang-txt{
+    box-sizing: border-box;padding: 10px 10px;
+}
+.txt .language1 .text{
+    border-top: 1px solid #a4a4a4;width: 102px;
+    font-size: 14px;height: 28px;line-height: 28px;
+}
+.txt .language1 .text:nth-of-type(1){
+    border-top: none;
+}
+.txt .nation{
+    width: 333px;height: 310px;border: 1px solid #a4a4a4;
+    position: absolute;top:30px;left: 30px;overflow: auto;
+    background-color: white;z-index: 99;
+    display: none;
+}
+.txt .nation .box-s{
+    padding: 0 15px;
+}
+.nation-info h3{
+    width: 303px;height: 36px;box-sizing: border-box;
+}
+.nation-info h3 span{
+    width: 303px;height: 36px;margin-bottom: 5px;display: inline-block;
+    border-bottom: 1px solid #a4a4a4;
+}
+.nation-info ul{
+    display: flex;padding: 0;flex-wrap: wrap;text-align: center;height: 180;
+    /* align-items: center; */box-sizing: border-box;padding: 10px 0;
+}
+.nation-info ul li{
+    width: 75px;height: 78px;list-style: none;
+}
+.box-bg{
+    background: url(../images/operatbg.jpg) no-repeat center;
+    width: 100%;min-height: 483px;
+}
+.box-bg .login-box{
+    width: 430px;height: 460px;background: white;
+    position: absolute;;margin-top: 15px;right: 10px;
+}
+.login-box .login-box-info{
+    box-sizing:border-box; margin: 0 25px;
+}
+.login-box .login{
+    width: 380px;height: 166px;
+}
+.log-top{
+    height: 40px;line-height: 24px;margin-top: 11px;box-sizing: border-box;
+    padding: 8px 0;margin-bottom: 0;
+    display: flex;justify-content: space-between;
+}
+.login_error{
+    width: 380px;height: 23px;margin-bottom: 0;
+}
+.login .log-top .top_title{
+    color:#333;font-size: 18px;
+}
+.login .log-top .note_box,.note_box a{
+    font-size: 14px;color:#529bef;text-decoration: none;
+    cursor: pointer;
+}
+.inp{
+    width: 380px;min-height: 103px;
+    box-sizing: border-box;
+}
+.inp ul{
+    list-style: none;padding: 0;width: 378px;height: 42px;
+}
+.inp ul .user,.psd,.word_yz{
+    display: flex;border: 1px solid #ccc;color: rgb(230, 225, 225);
+}
+.inp ul .user,.psd,.word_yz{
+    margin-bottom: 15px;
+}
+.inp .user input,.word_yz input{
+    width: 270px;height: 42px;box-sizing: border-box;padding: 9px 0 10px 0;
+    border: none;outline: none;color: black;
+}
+.inp .psd input{
+    width: 270px;height: 42px;border: none;color: black;
+    outline:none;box-sizing:border-box;padding: 9px 0 10px 0;
+}
+.inp p{
+    width: 55px;height: 42px;text-align: center;line-height: 42px;
+    font-size: 16px;background-color: white;margin:0;
+    color: rgb(230, 225, 225) !important;
+}
+.glyphicon{
+    position: relative;top:0px
+}
+.inp .num_yz{
+    width: 380px;height: 42px;display: flex;justify-content: space-between;
+}
+.inp .num_yz div{
+    width: 228px;height: 42px;border: 1px solid #ccc;
+    display: flex;
+}
+.inp .num_yz input{
+    width: 176px;height: 40px;border: none;outline: none;
+    box-sizing: border-box;padding: 9px 0 10px 0;
+}
+.inp .num_yz div .glyphicon-envelope{
+    width:55px;height: 30px !important;
+}
+.inp .num_yz a{
+    display: inline-block;border: 1px solid #419ce3;width: 134px;
+    text-align: center;line-height: 42px;color: #419ce3 ;text-decoration: none;
+}
+.inp .word_yz input{
+    width: 218px;
+}
+.inp .word_yz .yzm_pic{
+    width: 105px;box-sizing: border-box;
+}
+.inp .word_yz .yzm_pic img{
+    width: 105;cursor: pointer;
+}
+.inp .agree{
+    width: 380px;height: 44px;box-sizing: border-box;padding: 11px 0;
+}
+.inp .agree label{
+    font-weight: normal;font-size: 12px;
+}
+.inp .agree a{
+    text-decoration: underline;color: #39c;
+}
+.inp .btn_zhuce button{
+    width: 380px;height: 42px;border: 2px solid #009de6;
+    background-color:  #009de6;text-align: center;outline: none;
+    line-height: 30px;color: white;font-size: 18px;
+}
+.inp .btn_zhuce .btn-danger{
+    outline: none;
+}
